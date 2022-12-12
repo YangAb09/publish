@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat:wght@400;500&family=Raleway:ital@1&family=Roboto:ital,wght@0,300;1,300&family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat:wght@400;500&family=Raleway:ital@1&family=Roboto:ital,wght@0,300;1,300&family=Signika:wght@300&family=Sono&display=swap');
+
+
+header {
+    padding: 30px;
+    background-color: black;
+}
+
+h1{
+font-family: 'Signika';
+text-align: center;
+color: white;
+}
+
+body{
+font-family: 'Cormorant Garamond', sans-serif;
+margin: 0;
+max-width: 100vw;
+overflow-x:hidden;
+}
+
+nav{
+	background-color: #cc7a00;
+	border-top: 2px solid #996600;
+	border-bottom: 2px solid #996600;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 10px
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+a:link{
+color: #ffd9b3;
+}
+a:visited{
+color: #4d2600;
+}
+a:hover{
+color:#cc9900;
+}
+a:active{
+color: black;
+}
+
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+blockquote{
+	margin: 25px;
+
+}
+
+footer{
+	border-top: 2px solid black;
+	background-color: #cc7a00;
+}
+
+.footer1000{
+	padding: 40px 40px;
+    margin: 0 auto;
+    max-width: 1000%;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.col-sm-6{
+	max-width: 50%;
+    margin: 0 auto;
+}
+
+.gallery .preview{
+    width:100%;
+    height:auto;
+    padding-bottom: 20px;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+    box-shadow: 1px 1px 5px 1px #666666;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    margin: 10 auto;
+    display: block;
+    box-shadow: 5px 5px 15px 2px #666666;
+    border: 10px solid white;
+}
+
+.fa-camera-retro {
+    font-size: 6em;
+    text-align: center;
+    display: block;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: black;
+}
+
+.rabbit {
+    border: 4px solid black;
+    height: auto;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+
+}
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+

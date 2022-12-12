@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:ital@1&family=Roboto:ital,wght@0,300;1,300&family=Sono&display=swap');
+
+header{
+	padding: 30px;
+	background-color: #ffffe6;
+}
+
+body{
+font-family: 'Sono', sans-serif;
+margin: 0;
+background-color: #ffffe6;
+}
+
+h1{
+font-family: 'Roboto';
+text-align: center;
+font-size: 55px;
+}
+
+h3 {
+    margin-top: 1px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h4{
+	text-align: center;
+}
+
+nav{
+	background-color: #ffff99;
+	border-top: 2px solid  #ffcccc;
+	border-bottom: 2px solid  #ffcccc;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 10px
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+a:link{
+color: #b3d9ff;
+}
+a:visited{
+color: #ccccff;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+.home-hero{
+	background-image: url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: black;
+	padding: 10px 10px 10px 30px;
+	border-radius: 20px;
+	border: 4px solid black;
+}
+
+img{
+	border-radius: 50px;
+	border: 4px solid black;
+}
+
+blockquote{
+	margin: 30px;
+}
+
+
+footer {
+    color: black;
+    background-color: #ffff99;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    display: block;
+}
+
+.icons {
+    text-align: center;
+    padding: 40px 0;
+    color: #35cad2;
+    margin: 0 auto;
+}
+
+
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+
+
+}
+
+img{
+	display:block;
+	margin:0 auto;
+}
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+img{
+	display:block;
+	margin:0 auto;
+}
+
